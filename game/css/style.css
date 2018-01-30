@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+@font-face {
+	font-family: "BlockyFont";
+	src: url("../font/BlockyFont.ttf") format("truetype");
+}
+
+body {
+	background-color: rgb(5,5,5);
+	font-family: "BlockyFont";
+	color: white;
+}
+
+p:nth-of-type(1) {
+	text-shadow: 0 0 5px rgba(0,0,0,0.4);
+	text-align: center;
+	background-color: rgba(0,0,0,0.1);
+	width: 100%;
+	padding: 5px;
+	position: fixed;
+	top: 0;
+}
+
+canvas {
+	background-image: url('http://1.media.dorkly.cvcdn.com/86/45/f75cef2af9b92ac225eae2ada9df0641.gif');
+	background-size: cover;
+	background-color: green;
+	display: block;
+	
+	-webkit-box-shadow: inset 0px 0px 159px 0px rgba(0,0,0,0.99);
+	-moz-box-shadow: inset 0px 0px 159px 0px rgba(0,0,0,0.99);
+	box-shadow: inset 0px 0px 100px 0px rgba(0,0,0,0.99);
+}
+
+div {
+	display: block;
+	margin: 10px auto;
+	width: 602px;
+	height: 402px;
+	border: 1px solid white;
+}
+
+#Notification {
+	position: fixed;
+	background-color: red;
+	top: 0;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	font-size: 28px;
+	opacity: 0;
+}

@@ -1,0 +1,5 @@
+36x80
+
+normal = 9x20
+
+Make in normal, get 4x size
